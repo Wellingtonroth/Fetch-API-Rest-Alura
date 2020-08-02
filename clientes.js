@@ -15,7 +15,7 @@ const exibeCliente = (cpf, nome) => {
   <td>${cpf}</td>
   <td>${nome}</td>
   `;
-
+  //o innerHTML esta inserindo uma linha para cada conteudo que ele encontra
   linha.innerHTML = conteudoLinha;
   return linha;
 };
